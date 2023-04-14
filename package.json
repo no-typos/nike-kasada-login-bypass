@@ -1,0 +1,31 @@
+{
+  "name": "nike-kasada-login-bypass",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Bypass kasada on Nike login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-typos/nike-kasada-login-bypass.git"
+  },
+  "keywords": [
+    "Nike",
+    "Kasada",
+    "Login",
+    "Bypass",
+    "Antibot",
+    "Akamai"
+  ],
+  "author": "no-typos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/no-typos/nike-kasada-login-bypass/issues"
+  },
+  "homepage": "https://github.com/no-typos/nike-kasada-login-bypass#readme",
+  "dependencies": {
+    "puppeteer": "^19.9.0"
+  }
+}
