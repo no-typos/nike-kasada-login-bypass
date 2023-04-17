@@ -22,8 +22,10 @@ async function main() {
         setTimeout(() => window.location.reload(), 3000);
     });
 
-    await page.bringToFront();
     await page.waitForTimeout(3000);
+    // Wait before switching focus to ensure other tab is focused long enough
+    await page.bringToFront();
+
     await page.waitForSelector("#username");
     await moveMouse(page);
     await page.type("#username", username, { delay: 250 });
